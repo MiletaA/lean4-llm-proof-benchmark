@@ -1,0 +1,10 @@
+{
+  "model_tag": "glm-4.7-flash:latest",
+  "model_short": "glm47flash",
+  "theorem": "addcomm",
+  "theorem_name": "add_comm_test",
+  "elapsed_s": 30.43,
+  "timed_out": false,
+  "error": null,
+  "raw_response": "import Mathlib\n\ntheorem add_comm_test (a b : ℕ) :\n  a + b = b + a := by\n  rw [Nat.add_comm]"
+}

@@ -1,0 +1,10 @@
+{
+  "model_tag": "gemma3:12b",
+  "model_short": "gemma12b",
+  "theorem": "addcomm",
+  "theorem_name": "add_comm_test",
+  "elapsed_s": 4.83,
+  "timed_out": false,
+  "error": null,
+  "raw_response": "import Mathlib\n\ntheorem add_comm_test (a b : ℕ) :\n  a + b = b + a := by\n  induction a with a' ih\n  · simp\n  · simp [Nat.add_succ_eq, ih]\n"
+}

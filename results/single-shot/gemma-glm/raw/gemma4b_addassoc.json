@@ -1,0 +1,10 @@
+{
+  "model_tag": "gemma3:4b",
+  "model_short": "gemma4b",
+  "theorem": "addassoc",
+  "theorem_name": "add_assoc_test",
+  "elapsed_s": 4.54,
+  "timed_out": false,
+  "error": null,
+  "raw_response": "import Mathlib\n\ntheorem add_assoc_test (a b c : ℕ) :\n  (a + b) + c = a + (b + c) := by\n  cases a\n  simp\n"
+}

@@ -1,0 +1,10 @@
+{
+  "model_tag": "gemma3:4b",
+  "model_short": "gemma4b",
+  "theorem": "addcomm",
+  "theorem_name": "add_comm_test",
+  "elapsed_s": 2.84,
+  "timed_out": false,
+  "error": null,
+  "raw_response": "import Mathlib\n\ntheorem add_comm_test (a b : ℕ) :\n  a + b = b + a := by\n  induction a with\n  | 0 =>\n    simp [Nat.zero_add, Nat.succ_add, Nat.succ_zero]\n  | succ a' =>\n    simp [Nat.succ_add, Nat.succ_zero, Nat.zero_add]\n"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "gemma12b_addassoc.lean",
+    "theorem": "addassoc",
+    "status": "failed",
+    "inspection": "uses generic add_assoc (Mathlib); induction; simp",
+    "compiler_error": "/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma12b_addassoc.lean:5:20: error: unknown tactic\n/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma12b_addassoc.lean:5:14: error(lean.inductionWithNoAlts): Invalid syntax for induction tactic: The `with` keyword must be followed by a tactic or by an alternative (e.g. `| zero =>`), but here it is followed by the identifier `a'`."
+  },
+  {
+    "file": "gemma12b_addcomm.lean",
+    "theorem": "addcomm",
+    "status": "failed",
+    "inspection": "induction; simp",
+    "compiler_error": "/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma12b_addcomm.lean:5:20: error: unknown tactic\n/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma12b_addcomm.lean:5:14: error(lean.inductionWithNoAlts): Invalid syntax for induction tactic: The `with` keyword must be followed by a tactic or by an alternative (e.g. `| zero =>`), but here it is followed by the identifier `a'`."
+  },
+  {
+    "file": "gemma4b_addassoc.lean",
+    "theorem": "addassoc",
+    "status": "failed",
+    "inspection": "simp",
+    "compiler_error": "/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma4b_addassoc.lean:4:31: error: unsolved goals\ncase succ\nb c n✝ : ℕ\n⊢ n✝ + 1 + b + c = n✝ + 1 + (b + c)"
+  },
+  {
+    "file": "gemma4b_addcomm.lean",
+    "theorem": "addcomm",
+    "status": "failed",
+    "inspection": "induction; simp",
+    "compiler_error": "/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma4b_addcomm.lean:6:3: error: unexpected token; expected '_' or identifier\n/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma4b_addcomm.lean:6:2: error: Missing alternative name: Expected `zero` or `succ`\n/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma4b_addcomm.lean:5:2: error: Alternative `zero` has not been provided\n/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/gemma4b_addcomm.lean:5:2: error: Alternative `succ` has not been provided"
+  },
+  {
+    "file": "glm47flash_addassoc.lean",
+    "theorem": "addassoc",
+    "status": "success",
+    "inspection": "uses canonical Nat.add_assoc",
+    "compiler_error": null
+  },
+  {
+    "file": "glm47flash_addcomm.lean",
+    "theorem": "addcomm",
+    "status": "success",
+    "inspection": "uses canonical Nat.add_comm",
+    "compiler_error": null
+  },
+  {
+    "file": "glm9b_addassoc.lean",
+    "theorem": "addassoc",
+    "status": "failed",
+    "inspection": "uses generic add_assoc (Mathlib); induction",
+    "compiler_error": "/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/glm9b_addassoc.lean:5:20: error: unknown tactic\n/Users/miletaavramovic/Downloads/Napredne_Metode/30m:25/results_new/glm9b_addassoc.lean:5:14: error(lean.inductionWithNoAlts): Invalid syntax for induction tactic: The `with` keyword must be followed by a tactic or by an alternative (e.g. `| zero =>`), but here it is followed by the identifier `d`."
+  },
+  {
+    "file": "glm9b_addcomm.lean",
+    "theorem": "addcomm",
+    "status": "success",
+    "inspection": "uses canonical Nat.add_comm",
+    "compiler_error": null
+  }
+]

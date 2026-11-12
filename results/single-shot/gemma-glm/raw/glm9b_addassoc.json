@@ -1,0 +1,10 @@
+{
+  "model_tag": "glm4:9b",
+  "model_short": "glm9b",
+  "theorem": "addassoc",
+  "theorem_name": "add_assoc_test",
+  "elapsed_s": 14.73,
+  "timed_out": false,
+  "error": null,
+  "raw_response": "```lean\nimport Mathlib\n\ntheorem add_assoc_test (a b c : ℕ) :\n  (a + b) + c = a + (b + c) := by\n  induction c with d hd,\n  { refl },\n  { rw [add_assoc, hd] }\n```"
+}

@@ -1,0 +1,10 @@
+{
+  "model_tag": "glm-4.7-flash:latest",
+  "model_short": "glm47flash",
+  "theorem": "addassoc",
+  "theorem_name": "add_assoc_test",
+  "elapsed_s": 54.99,
+  "timed_out": false,
+  "error": null,
+  "raw_response": "import Mathlib\n\ntheorem add_assoc_test (a b c : ℕ) :\n  (a + b) + c = a + (b + c) := by\n  rw [Nat.add_assoc]"
+}

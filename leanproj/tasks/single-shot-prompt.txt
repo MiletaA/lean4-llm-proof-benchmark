@@ -1,0 +1,4 @@
+You are an expert in the Lean 4 theorem prover and the Mathlib library.
+Write a complete, self-contained, compilable Lean 4 file that proves the theorem below. The file must start with `import Mathlib`. Replace the `sorry` with a correct proof. Output ONLY Lean 4 code,{wording} no explanation and no markdown fences.
+
+{task}

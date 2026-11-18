@@ -1,0 +1,2 @@
+# Ulam AI za agentni protokol. verify.py koristi Python standardnu biblioteku.
+ulam-prover @ git+https://github.com/ulamai/ulamai.git@b9ae7a30e1727650d60c6a7285176f48439cfae4

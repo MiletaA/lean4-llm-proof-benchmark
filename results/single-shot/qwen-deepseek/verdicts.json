@@ -1,0 +1,42 @@
+[
+  {
+    "model": "deepseek_coder_v2_16b",
+    "theorem": "addassoc",
+    "status": "success"
+  },
+  {
+    "model": "deepseek_coder_v2_16b",
+    "theorem": "addcomm",
+    "status": "success"
+  },
+  {
+    "model": "deepseek_r1_8b",
+    "theorem": "addassoc",
+    "status": "failed"
+  },
+  {
+    "model": "deepseek_r1_8b",
+    "theorem": "addcomm",
+    "status": "failed(wrong-statement)"
+  },
+  {
+    "model": "qwen2_5_coder_14b",
+    "theorem": "addassoc",
+    "status": "success"
+  },
+  {
+    "model": "qwen2_5_coder_14b",
+    "theorem": "addcomm",
+    "status": "failed"
+  },
+  {
+    "model": "qwen3_latest",
+    "theorem": "addassoc",
+    "status": "success"
+  },
+  {
+    "model": "qwen3_latest",
+    "theorem": "addcomm",
+    "status": "failed"
+  }
+]
